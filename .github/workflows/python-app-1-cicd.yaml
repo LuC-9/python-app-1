@@ -27,7 +27,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: LuC-9/python-app-1:${{ env.COMMIT_ID }}
+          tags: luc09/python-app-1:${{ env.COMMIT_ID }}
     outputs:
       commit_id: ${{ env.COMMIT_ID }}
 
