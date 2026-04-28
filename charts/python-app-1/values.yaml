@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  repository: ricardoandre9707/python-app-1
+  repository: LuC-9/python-app-1
   pullPolicy: IfNotPresent
   tag: python-app-1-dev-latest
 imagePullSecrets: []
